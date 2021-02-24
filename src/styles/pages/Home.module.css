@@ -15,4 +15,9 @@
   grid-template-columns: 1fr 1fr;
   gap: 6.25rem;
   align-items: center;
+  margin-top: 6rem;
+}
+
+.container section div:last-child {
+  height: 100%;
 }
