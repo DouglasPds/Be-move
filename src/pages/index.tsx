@@ -18,7 +18,6 @@ interface HomeProps {
 }
 
 export default function Home(props: HomeProps) {
-  console.log(props)
   return (
     <ChallengesProvider
       level={props.level}
@@ -27,7 +26,7 @@ export default function Home(props: HomeProps) {
     >
       <div className={styles.container}>
         <Head>
-          <title>Início | move.it</title>
+          <title>Início | Be-move</title>
         </Head>
 
         <ExperienceBar></ExperienceBar>
