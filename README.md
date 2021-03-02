@@ -1,34 +1,52 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# <center>Página inicial da aplicação Be-move</center>
 
-## Getting Started
+![Be-move-inicial](https://user-images.githubusercontent.com/49247431/109667599-1206cb00-7b4f-11eb-9e98-f0e22f9050b6.png)
 
-First, run the development server:
+## Pode ser acessado em [Be-move](https://be-move.vercel.app/)
 
-```bash
-npm run dev
-# or
-yarn dev
+## Tecnologias
+
+O projeto foi criado utilizando as seguintes tecnologias:
+- Next.js com o `create-next-app`
+- ReactJS
+- Typescript
+- context API
+- js-cookie
+
+## Começando
+
+Para rodar o projeto, após fazer o clone, instale as dependências usando 
+```bash 
+yarn
 ```
+e então execute o comando 
+```bash
+yarn dev
+``` 
+para iniciar o servidor.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+E acesse [http://localhost:3000](http://localhost:3000) no seu navegador para ver o resultado.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+## Funcionalidades
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+Funciona como um pomodoro tendo uma contagem regressiva, onde você fica um tempo com foco na sua produtividade. Mas o seu diferencial está nos exercícios para subir de nível. 
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+Onde a cada finalização de um ciclo de foco, um exercício aparece para ser realizado contendo uma quantidade de xp, e podendo ser de dois tipos para o corpo e para os olhos.
 
-## Learn More
+### Após encerrado o ciclo.
+![Ciclo encerrado](https://user-images.githubusercontent.com/49247431/109668999-737b6980-7b50-11eb-9669-9e942030c9b6.png)
 
-To learn more about Next.js, take a look at the following resources:
+Aparece os dois botões de falhei e completei, ao clicar em falhei ele reinicia o contador e você não ganha o xp.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Ao clicar em completei, você ganha o xp e é reiniciado o contador, e se você atingir a quantidade de xp necessária para passar para o próximo nível, a próxima tela é mostrada.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+### Quando atingido o próximo nível.
+![Subindo-de-nivel](https://user-images.githubusercontent.com/49247431/109669009-770ef080-7b50-11eb-82db-c368b5f30d95.png)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+#### 🚀 Projeto iniciado durante a Next Level Week 4.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+
+
